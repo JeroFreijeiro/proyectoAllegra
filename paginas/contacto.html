@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artesanias Allegra</title>
+
+    <link rel="shortcut icon" href="../multimedia/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    
+    <header>
+        <img src="../multimedia/logo.jpg" alt="Logo de Artesanias Allegra">
+        <ul class="listas">
+            <li><a href="../index.html">Inicio</a></li>
+            <li>Home</li>
+            <li>Nosotros</li>
+            <li>Menu</li>
+            <li>Contacto</li>
+        </ul>   
+    </header>
+
+    <nav>
+        <a href="https://www.google.com.ar" target="_blank">Google</a>
+        <a href="#final">Ir al final del sitio</a>
+    </nav>
+
+    <main>
+
+        <h1>Contacto</h1>
+        <h2>Para dejarnos un mensaje completa el siguiente formulario:</h2>
+
+        <form>
+            <label for="nombreApellido">Nombre y Apellido:</label>
+            <input type="text" name="nombreApellido" required>
+
+            <label for="correoElectronico">Correo electrónico:</label>
+            <input type="email" name="correoElectronico">
+
+            <label for="pass">Contraseña:</label>
+            <input type="password" name="pass">
+
+            <label for="mensaje">Deja tu mensaje:</label>
+            <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+
+            <label for="sexo">Indica tu sexo:</label>
+            <input type="radio" value="M" name="sexo"> M 
+            <input type="radio" value="F" name="sexo"> F
+            <input type="radio" value="NsNc" name="sexo"> NsNc
+            
+            <label for="terminos">Elija la siguiente opción:</label>
+            <input type="checkbox" value="1" name="terminos" required> Acepto términos
+            <input type="checkbox" value="2" name="terminos"> Acepto las cookies
+            <input type="checkbox" value="3" name="terminos"> Acepto este formulario
+
+            <label for="pais">¿De que pais sos?</label>
+            <select name="pais">
+                <option value="ARG">Argentina</option>
+                <option value="ESP">España</option>
+            </select>
+
+            <fieldset>
+                <legend>Datos de facturacion:</legend>
+                <label for="nombreApellido">Nombre y Apellido:</label>
+                <input type="text" name="nombreApellido" required>
+                <br>
+                <label for="correoElectronico">Correo electrónico:</label>
+                <input type="email" name="correoElectronico">
+            </fieldset>
+
+
+            <input type="submit" value="Enviar">
+
+            <input type="reset" value="Borrar">
+
+            <input type="button" value="Reestablecer">
+
+        </form>
+
+
+
+
+
+    </main>
+
+    <section>
+
+    </section>
+
+    <aside>
+
+    </aside>
+
+    <footer id="final">
+        <p>Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
